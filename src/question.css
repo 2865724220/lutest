@@ -1,0 +1,506 @@
+.question{
+    display: block;
+    width:100%;
+    height:100%;
+}
+
+.commonBg{
+    background: url("./img/commonBg.png") no-repeat center center;
+    background-size: cover;
+}
+.swBtnW{
+    display: block;
+    width: 8.346354rem;
+    margin: 0.520833rem auto 0;
+}
+.swBtn{
+    display: block;
+    width: 1.653646rem;
+    height: 1.041667rem;
+}
+.kycSub{
+    display: block;
+    width: 5.208333rem;
+    height: 1.041667rem;
+    background: url("./img/kyc-submit.png") no-repeat center center;
+    background-size: cover;
+}
+/*.kycSub:hover{*/
+/*background: url("./img/kyc-submit-on.png") no-repeat center center;*/
+/*background-size: cover;*/
+/*}*/
+.leftA{
+    background: url("./img/left.png") no-repeat center center;
+    background-size: cover;
+}
+/*.leftA:hover{*/
+/*background: url("./img/left-on.png") no-repeat center center;*/
+/*background-size: cover;*/
+/*}*/
+.rightA{
+    background: url("./img/right.png") no-repeat center center;
+    background-size: cover;
+}
+.rightAD{
+    background: url("./img/right-d.png") no-repeat center center;
+    background-size: cover;
+}
+/*.rightA:hover{*/
+/*background: url("./img/right-on.png") no-repeat center center;*/
+/*background-size: cover;*/
+/*}*/
+.quTitle{
+    display: block;
+    width: 8.333333rem;
+    border: 0.039063rem solid #000;
+    border-radius: 0.182292rem;
+    height: 2.734375rem;
+    margin: 0.390625rem auto;
+    padding: 0 0.260417rem;
+    color: #000;
+    background: rgba(254, 254, 254, 0.8);
+    text-align: left;
+}
+.quTitle .big {
+    font-size: 0.364583rem;
+    font-weight: 900;
+    padding-top: 0.078125rem;
+}
+.quTitle p {
+    font-size: 0.260417rem;
+}
+.quTitle .questionQT{
+    padding:0.2604rem 0 0.1rem 0;
+    font-size:0.3157rem;
+    line-height: 1.2;
+}
+.option {
+    width: 8.333333rem;
+    height: 1.901042rem;
+    color: #000;
+    font-size: 0.286458rem;
+    padding: 0.9375rem 0.885417rem 0;
+    text-align: left;
+}
+
+.optionA{
+    background: url("./img/optionA.png") no-repeat center center;
+    background-size:cover;
+    margin: 0 auto 0.260417rem;
+}
+.optionAOn{
+    background: url("./img/optionA-on.png") no-repeat center center;
+    background-size: cover;
+}
+.optionB{
+    background: url("./img/optionB.png") no-repeat center center;
+    background-size:cover;
+    margin:0 auto;
+}
+.optionBOn{
+    background: url("./img/optionB-on.png") no-repeat center center;
+    background-size: cover;
+}
+.quTop{
+    display: block;
+    background: url("./img/qu-top.png") no-repeat center center;
+    background-size: cover;
+    width: 8.333333rem;
+    height: 2.747396rem;
+    margin: 0 auto;
+    color: #442902;
+    text-align: center;
+}
+.quTop .topTitle {
+    display: block;
+    font-size: 0.364583rem;
+    padding-top: 1.302083rem;
+}
+
+.quTop p {
+    display: block;
+    font-size: 0.286458rem;
+    line-height: 1;
+}
+
+.quTop p em {
+    font-size: 0.46875rem;
+    color: #F94B15;
+    font-weight: bold;
+}
+.egg{
+    display: block;
+    width:100%;
+    height: 100%;
+    /*background: url("./img/commonBg.png") no-repeat center center;*/
+    /*background-size: cover;*/
+    position: relative;
+    overflow-y: auto;
+}
+.eggText {
+    width: 8.333333rem;
+    border: 0.039063rem solid #000;
+    background: rgba(254, 254, 254, 0.8);
+    text-align: left;
+    margin: 0.3125rem auto 0;
+    border-radius: 0.182292rem;
+    font-size: 0.260417rem;
+    color: #000;
+    padding: 0.182292rem 0.260417rem;
+}
+.eggText span{
+    display: block;
+}
+.eggCW {
+    display: block;
+    border: 0.039063rem solid #000;
+    background: rgba(254, 254, 254, 0.8);
+    width: 8.333333rem;
+    border-radius: 0.182292rem;
+    margin: 0.651042rem auto 0;
+    position: relative;
+}
+
+.eggTW {
+    padding: 0.520833rem 0.520833rem 0;
+}
+
+.eggC {
+    display: block;
+    width: 2.994792rem;
+    height: 2.148438rem;
+    margin: 0 0 0.520833rem;
+}
+.eggSubW{
+
+}
+.eggSub{
+    display: block;
+    width: 5.195313rem;
+    height: 1.041667rem;
+    background: url("./img/egg-submit.png") no-repeat center center;
+    background-size: cover;
+    margin: 0.260417rem auto 0;
+}
+.eggSub01{
+    display: block;
+    width: 5.195313rem;
+    height: 1.041667rem;
+    background: url("./img/btn_submit01.png") no-repeat center center;
+    background-size: cover;
+    margin: 0.260417rem auto 0;
+}
+/*.eggSub:hover{*/
+/*background: url("./img/egg-submit-on.png") no-repeat center center;*/
+/*background-size: cover;*/
+/*}*/
+.eggT {
+    display: block;
+    width: 2.083333rem;
+    height: 0.78125rem;
+    background: rgba(254, 254, 254, 1);
+    border: 0.039063rem solid #000;
+    border-radius: 1.302083rem;
+    position: absolute;
+    left: calc(50% - 1.041667rem);
+    top: -0.390625rem;
+    color: #000;
+}
+
+.eggT img {
+    display: inline-block;
+    width: 0.494792rem;
+    height: 0.546875rem;
+    vertical-align: middle;
+    margin-right: 0.182292rem;
+}
+
+.eggT span {
+    display: inline-block;
+    font-size: 0.3125rem;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.eggT span em {
+    display: inline-block;
+    font-size: 0.46875rem;
+    color: #F97115;
+    padding-left: 0.182292rem;
+}
+
+.egg-pen {
+    display: block;
+    width: 3.020833rem;
+    height: auto;
+    margin: 0 auto;
+}
+
+.egg-btn {
+    display: inline-block;
+    width: 0.651042rem;
+    height: 0.651042rem;
+    vertical-align: middle;
+}
+
+.aPW {
+    display: block;
+    position: relative;
+    margin: 0.130208rem 0 0;
+}
+
+.aPWT {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0.208333rem;
+    color: #000;
+    width: 1.276042rem;
+    height: 0.651042rem;
+    line-height: 0.651042rem;
+}
+
+.aPWT.lineH1 {
+    line-height: 1.4;
+}
+
+.maxNum {
+    display: block;
+    position: absolute;
+    font-size: 0.208333rem;
+    color: #DB2C09;
+    right: 0;
+    top: -0.3125rem;
+}
+
+.gameTips {
+    display: block;
+    position: absolute;
+    right: 0.260417rem;
+    top: 0.052083rem;
+}
+
+.gameTips img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 0.286458rem;
+}
+
+.gameTips span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0.234375rem;
+    color: #000;
+    padding-left: 0.130208rem;
+    line-height: 1;
+}
+
+.gameModal {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.gameMC {
+    background: #fff;
+    width: 68%;
+    margin: 14% auto 0;
+    border-radius: 0.182292rem;
+    position: relative;
+    padding-bottom: 0.78125rem;
+    color: #000;
+}
+
+.gameMCI {
+    display: block;
+    width: 1.380208rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.gameMT {
+    font-size: 0.3125rem;
+    font-weight: bold;
+    padding: 0.651042rem 0;
+    text-align: center;
+}
+
+.gameMP {
+    font-size: 0.286458rem;
+    text-align: left;
+    padding: 0 1.302083rem 0 1.041667rem;
+    margin-bottom: 0.520833rem;
+}
+
+.gameMP em {
+    font-weight: bold;
+}
+
+.gameMP em,
+.gameMP span {
+    display: block;
+}
+
+.gameMBtn {
+    display: block;
+    width: 0.651042rem;
+    position: absolute;
+    top: -0.260417rem;
+    right: -0.260417rem;
+}
+.gameMBtn:hover{
+    background: url("./img/btn_close02.png") no-repeat center center;
+    background-size: cover;
+}
+.eggAdd {
+    display: block;
+    width: 0.585938rem;
+    position: absolute;
+    right: 0.104167rem;
+    bottom: 0.15625rem;
+    opacity: 0;
+    /*transition:0.5s all cubic-bezier(0.14,-1.33,1,0.18);*/
+    -webkit-animation: eggAdd 0.3s ease-in-out;
+    animation: eggAdd 0.3s ease-in-out;
+}
+
+.eggMinus {
+    display: block;
+    width: 0.585938rem;
+    position: absolute;
+    left: 0.104167rem;
+    bottom: 0.15625rem;
+    opacity: 0;
+    /*transition:0.5s all cubic-bezier(0.14,-1.33,1,0.18);*/
+    -webkit-animation: eggMinus 0.3s ease-in-out;
+    animation: eggMinus 0.3s ease-in-out;
+}
+
+@keyframes eggAdd {
+    10%{
+        transform: translate(0,0);
+        opacity: 0.2;
+    }
+    40%{
+        transform: translate(-0.131578rem,-0.263157rem);
+        opacity: 1;
+    }
+    80%{
+        transform: translate(-0.526315rem,-1.184210rem);
+        opacity: 0.6;
+    }
+    100%{
+        transform: translate(-0.789473rem,-1.578943rem);
+        opacity: 0;
+        display: none;
+    }
+}
+@keyframes eggMinus {
+    10%{
+        transform: translate(0.921052rem,-1.7105263rem);
+        opacity: 0.2;
+    }
+    40%{
+        transform: translate(0.789473rem,-1.578943rem);
+        opacity: 1;
+    }
+    80%{
+        transform: translate(0.526315rem,-1.184210rem);
+        opacity: 0.6;
+    }
+    100%{
+        transform: translate(0.131578rem,-0.263157rem);
+        opacity: 0;
+        display: none;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 833px) {
+    .eggText {
+        margin: 0.130208rem auto 0;
+        padding: 0.104167rem 0.260417rem;
+    }
+
+    .eggCW {
+        margin: 0.46875rem auto 0;
+    }
+
+    .eggSub {
+        margin: 0.208333rem auto 0;
+    }
+
+    .eggSub01 {
+        margin: 0.208333rem auto 0;
+    }
+}
+@media (max-width:621px){
+    .quTop p{
+        font-size: 16px;
+    }
+    .quTop .topTitle{
+        font-size:18px;
+    }
+    .quTitle{
+        height:3.85rem;
+        margin: 0.5rem auto;
+    }
+    .quTitle .big{
+        gont-size:16px;
+    }
+    .quTitle p{
+        font-size:14px;
+    }
+    .quTitle .questionQT{
+        font-size: 18px;
+    }
+    .option{
+        font-size:14px;
+        padding: 0.8rem 0.885417rem 0;
+        line-height: 1.1;
+    }
+    .swBtnW {
+        margin: 0.6rem auto 0;
+    }
+    .eggText{
+        font-size: 14px;
+        margin: 0.2125rem auto 0;
+    }
+    .eggCW{
+        margin: 0.551042rem auto 0;
+    }
+    .gameTips span{
+        font-size:14px;
+    }
+    .aPW{
+        margin: 0.2rem 0 0;
+    }
+    .aPWT{
+        font-size:12px;
+    }
+    .aPWT.lineH1 {
+        line-height: 1.2;
+    }
+    .maxNum{
+        font-size: 12px;
+        top: -0.35rem;
+    }
+    .eggSub {
+        margin: 0.4rem auto 0;
+    }
+    .eggSub01 {
+        margin: 0.4rem auto 0;
+    }
+    .commonBg {
+        background: url('./img/commonBgS.png') no-repeat center center;
+        background-size: cover;
+    }
+    .gameMC{
+        margin: 24% auto 0;
+    }
+
+}

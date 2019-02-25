@@ -1,0 +1,30 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { Switch, HashRouter, Route } from 'react-router-dom';
+
+import './App.css';
+import './index.css';
+import './result.css'
+
+import Main from './component/main/main'
+import Question from './component/question/question'
+import Egg from './component/egg/egg'
+import Result from './component/result/result'
+import Email from './component/email/email'
+
+import registerServiceWorker from './registerServiceWorker';
+
+ReactDOM.render(
+    <div className="App">
+        <HashRouter>
+            <Switch>
+                <Route exact path="/" component={Main}/>
+                <Route exact path="/question" component={Question}/>
+                <Route exact path="/egg/:kyc" component={Egg}/>
+                <Route exact path="/result" component={Result}/>
+                <Route exact path="/email" component={Email}/>
+            </Switch>
+        </HashRouter>
+    </div>,
+    document.getElementById('root'));
+registerServiceWorker();

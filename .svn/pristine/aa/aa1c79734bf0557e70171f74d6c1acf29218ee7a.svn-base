@@ -1,0 +1,21 @@
+{
+  "name": "gamel",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "echarts-for-react": "^2.0.15-beta.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-echarts": "^0.1.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5",
+    "react-swipe": "^5.1.1",
+    "swipe-js-iso": "^2.0.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

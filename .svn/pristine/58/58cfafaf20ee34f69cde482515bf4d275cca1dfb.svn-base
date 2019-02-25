@@ -1,0 +1,178 @@
+.App {
+  text-align: center;
+}
+.quTop1{
+    display: block;
+    display: block;
+    background: url("./img/qu-top.png") no-repeat center center;
+    background-size: contain;
+    width:6.973684210526316rem;
+    height:2.3421052631578947rem;
+    margin:0 auto;
+    color: #442902;
+    text-align: center;
+
+}
+.quTop1 .topTitle{
+    display: block;
+    /*font-family: STYuanti-SC-Bold;*/
+    font-size: 0.3684210526315789rem;
+    color: #040000;
+    padding-top:1.25rem;
+}
+.quTop1 p{
+    display: block;
+    font-size:24px;
+}
+.email{
+    width:100%;
+    height:100%;
+    background-size: cover;
+}
+.emailOne{
+    width:100%;
+    height:100%;
+}
+.emailTwo{
+    width:100%;
+    height:100%;
+    position:absolute;
+    z-index:9;
+    background-color: #000;
+    top:0;
+    opacity: 0.7;
+}
+.emailBtn{
+    width:2.4342105263157894rem;
+    height:1.644736842105263rem;
+    display: block;
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    margin-left: -1.2105263157894737rem;
+    top:3.289473684210526rem;
+}
+.emailBird{
+    background: url("./img/emailA.png") no-repeat center center;
+    background-size:cover;
+}
+.emailContent{
+    position:absolute;
+    display: block;
+    border:0.05263157894736842rem solid #333;
+    width:6.776315789473684rem;
+    top:4.078947368421052rem;
+    left: 50%;
+    transform: translateX(-50%);
+    height:9.342105263157896rem;
+    border-radius: 0.39473684210526316rem;
+    background-color: white;
+}
+.emailText{
+    /*font-family: STYuanti-SC-Regular;*/
+    font-size: 0.2631578947368421rem;
+    color: #040000;
+    margin:0.39473684210526316rem;
+    margin-top:1.5789473684210527rem;
+    text-align: left;
+}
+.emailText2{
+    /*font-family: STYuanti-SC-Regular;*/
+    font-size: 0.2631578947368421rem;
+    color: #000000;
+    position:absolute;
+    top:7.894736842105263rem;
+    width:6.776315789473684rem;
+}
+.emailInput{
+    display: block;
+    position: absolute;
+    width:5.921052631578948rem;
+    height:1.0526315789473684rem;
+    background: url("./img/input.png") no-repeat center center;
+    background-size: cover;
+    left:calc(50% - 2.960526315789474rem);
+    display: table;
+    top:3.1578947368421053rem;
+}
+.confirmEmail{
+    background: transparent;
+    display: block;
+    height: 1.0526315789473684rem;
+    /*font-family: STYuanti-SC-Regular;*/
+    font-size: 0.2631578947368421rem;
+    color: #000000;
+    padding: 0 0.2631578947368421rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: calc(100% - 1.7105263157894737rem);
+}
+.confirm{
+    display: block;
+    background: url("./img/btn_confirm01.png") no-repeat center center;
+    background-size: cover;
+    width:2.3684210526315788rem;
+    height:1.0526315789473684rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.erweima{
+    background: url('./img/erweima.png') no-repeat center center;
+    width:3.0921052631578947rem;
+    height:3.0921052631578947rem;
+    background-size: cover;
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    left:calc(50% - 1.5394736842105263rem);
+    top:4.605263157894737rem;
+}
+.emailModal{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 3;
+}
+.modalMid{
+    /*margin-left:50%;*/
+    /*transform: translateX(-50%);*/
+    /*margin-top:50%;*/
+    /*transfrom: translateY(-50%);*/
+}
+.hear{
+    top:3.9473684210526314rem;
+    background: url('./img/tips.png') no-repeat center center;
+    width:6.776315789473684rem;
+    height:3.4473684210526314rem;
+    left:50%;
+    transform: translateX(-50%);
+    background-size: cover;
+    position:relative;
+
+    font-size: 0.27631578947368424rem;
+    color: #000000;
+    line-height: 3.4210526315789473rem;
+}
+.close{
+    top:350px;
+    background: url('./img/btn_close01.png') no-repeat center center;
+    width:395px;
+    height:77px;
+    left:50%;
+    transform: translateX(-50%);
+    position:relative;
+    background-size: cover;
+}
+.percentile{
+    /*font-family: STYuanti-SC-Regular;*/
+    font-size: 0.2631578947368421rem;
+    color: red;
+    text-align: center;
+    /*line-height: 56px;*/
+}

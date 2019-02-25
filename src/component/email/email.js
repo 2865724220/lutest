@@ -1,0 +1,128 @@
+import React, { Component } from 'react';
+
+class Email extends Component {
+    constructor(props){
+        super(props)
+        this.state={
+            alert:false,
+            email:''
+        }
+    }
+    componentDidMount() {
+        document.title='Crazy Rich Birds'
+        // this.setDefaultEmail()
+    }
+    setDefaultEmail(){
+        let email = localStorage.getItem('email')
+        this.setState({
+            email: email
+        })
+    }
+    email(e){
+        let email = e.target.value
+        this.setState({
+            email:email
+        })
+    }
+    confirmEmail(){
+        let emailReg = /^[a-zA-Z0-9_.-]+@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*\.[a-zA-Z0-9]{2,6}$/
+        if(emailReg.test(this.state.email)){
+            this.sendEmail()
+            this.setState({
+                alert: !this.state.alert
+            })
+        }else{
+            alert('请输入正确的邮箱')
+        }
+    }
+    sendEmail(){
+        let uid = localStorage.getItem('uid')
+        let body = {
+            "email":this.state.email,
+            "uid":uid,
+            "isReceive":"1",
+            "lang":null,
+            "orgId":"310003",
+            "reqChl":"03",
+            "reqTime":"20180727150130123",
+            "serNum":"1234567890",
+            "sign":"SHA256withRSA2048",
+            "token":"D688D2555ED94C7285D26BDF4B13D08F",
+            "tranCode":"LU003",
+            "version":"100"
+        }
+        fetch("https://paladin.pingan.com.cn/app/LU003",{
+            method:'POST',
+            body: JSON.stringify(body),
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json',
+            },
+        }).then((result)=>{
+            return result.json()
+        }).then((res)=>{
+            console.log(res)
+
+        }).catch(err=>
+            console.log(err)
+        )
+    }
+
+    replay(){
+        this.props.history.push(`/`)
+    }
+
+    close(){
+        this.setState({
+            alert: !this.state.alert
+        })
+    }
+
+    render() {
+        return (
+            <div className="email commonBg">
+                <div className='emailOne'>
+                    <div className="quTop1">
+                        <span className="topTitle">Game is not over</span>
+                    </div>
+                    <div className='emailBtn emailBird'></div>
+                    <div className='emailContent'>
+                        <div className='emailText'>
+                            <p>Dear investor,</p>
+                            <p>
+                                Please confirm your email address for our events
+                                and products updates. Enjoy your investments!
+                            </p>
+
+                        </div>
+                        <div className='emailInput'>
+                            <input className='confirmEmail' value={this.state.email} type='text' onChange={(event)=>this.email(event)} placeholder="Example: crazy.rich@bird.com"/>
+                            <div className='confirm' onClick={()=>this.confirmEmail()}></div>
+                        </div>
+                        <a className='erweima' href="https://h5.lu-tech.cn/h5-intl/account?channelId=luh563&ts=-28902%7C10077661#/?_k=ja2i15">
+                        </a>
+                        <div className='emailText2'>
+                            <p>Download and register to learn more about LUI</p>
+                        </div>
+                    </div>
+                </div>
+                {
+                    this.state.alert &&
+                    <div className='emailModal'>
+                        <div className='modalMid'>
+                            <div className='hear'>
+                                You’ll hear from us soon!
+                            </div>
+                            <div className='close' onClick={()=>this.close()}>
+                            </div>
+                            <div className='replay' onClick={()=>this.replay()}>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        );
+    }
+}
+
+export default Email;

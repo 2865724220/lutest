@@ -1,0 +1,471 @@
+.main{
+    width:100%;
+    height: 100%;
+    position:relative;
+    background: url("./img/mainBg.png") no-repeat center center;
+    background-size: cover;
+}
+.playInputW {
+    display: block;
+    position: absolute;
+    width: 5.9868rem;
+    height: 1.0526rem;
+    left: calc(50% - 3rem);
+    bottom: 1.953125rem;
+    display: table;
+    /*border: 0.039063rem solid #040000;*/
+    /*border-radius: 0.208333rem;*/
+    /*background: #ffffff;*/
+}
+.playInput {
+    background: transparent;
+    display: block;
+    height: 1.041667rem;
+    color: #080102;
+    font-size: 0.260417rem;
+    padding: 0 0.260417rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: calc(100% - 1.692708rem);
+}
+.playImg{
+    display: block;
+    width: 5.9868rem;
+    height: 1.0526rem;
+    background: url("./img/btn_play3.png") no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top:0;
+    right:0rem;
+}
+
+.birdMain{
+    display: block;
+    width: 5.026042rem;
+    height: 1.432292rem;
+    background: url("./img/start_0.png") no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    right:0;
+    bottom: 0.651042rem;
+    transform: translate3d(0,0,0);
+    /*animation: mainBird 3s steps(1, start) infinite;*/
+    animation: mainBird 3s steps(1, start) infinite;
+    animation-fill-mode: both;
+}
+.logo {
+    display: block;
+    width:  5.131578rem;
+    margin: 0 auto;
+    padding-top: 0.263157rem;
+    animation: logoScale 2.5s steps(1, start) infinite;
+    animation-fill-mode: both;
+}
+.leaf1{
+    display: block;
+    background: url("./img/leaf1/leaf1_0.png") no-repeat center center;
+    background-size: cover;
+    width: 2.4210526rem;
+    height: 3rem;
+    position: absolute;
+    top:0;
+    left:-2px;
+    animation: leaf1 3s steps(1, start) infinite;
+    animation-fill-mode: both;
+}
+.leaf2{
+    display: block;
+    background: url("./img/leaf2/leaf2_0.png") no-repeat center center;
+    background-size: cover;
+    width: 1.6973684rem;
+    height: 2.7368421rem;
+    position: absolute;
+    z-index: 2;
+    top:0;
+    right:-2px;
+    animation: leaf2 3s steps(1, start) infinite;
+    animation-fill-mode: both;
+}
+.cage{
+    display: block;
+    background: url("./img/cage.png") no-repeat center center;
+    background-size: cover;
+    width: 0.934210rem;
+    height: 2.210526rem;
+    position: absolute;
+    z-index:1;
+    top: 1.315789rem;
+    right: 0.394736rem;
+    transform-origin: top;
+    transform:rotate(0deg);
+    animation: cage 3s steps(1, start) infinite;
+    animation-fill-mode: both;
+}
+@keyframes mainBird {
+    0% {
+        background: url("./img/start_0.png") no-repeat center center;
+        background-size: cover;
+        /*background-position: 0px 0px;*/
+    }
+    8.333%{
+        background: url("./img/start_1.png") no-repeat center center;
+        background-size: cover;
+        /*background-position: -387px 0;*/
+    }
+    16.666%{
+        background: url("./img/start_2.png") no-repeat center center;
+        background-size: cover;
+        /*background-position: -774px 0;*/
+    }
+    25.0%{
+        background: url("./img/start_3.png") no-repeat center center;
+        background-size: cover;
+        /*background-position: -1160px 0;*/
+    }
+    33.333%{
+        background: url("./img/start_4.png") no-repeat center center;
+        background-size: cover;
+        /*background-position: -1546px 0;*/
+    }
+    41.66% {
+        background: url("./img/start_5.png") no-repeat center center;
+        background-size: cover;
+        /*background: url("./img/start_4.png") no-repeat center center;*/
+        /*background-size: cover;*/
+        /*transform: translateY(2px);*/
+        /*background-position: -1932px 0;*/
+    }
+    50%{
+        background: url("./img/start_6.png") no-repeat center center;
+        background-size: cover;
+        /*background-position: -2318px 0;*/
+    }
+    58.33%{
+        background: url("./img/start_7.png") no-repeat center center;
+        background-size: cover;
+        /*background-position: -2704px 0;*/
+    }
+    66.66%{
+        background: url("./img/start_8.png") no-repeat center center;
+        background-size: cover;
+        /*background-position: -3090px 0;*/
+    }
+    75.0%{
+        background: url("./img/start_9.png") no-repeat center center;
+        background-size: cover;
+        /*background-position: -3476px 0;*/
+    }
+    83.33%{
+        background: url("./img/start_10.png") no-repeat center center;
+        background-size: cover;
+        /*background-position: -3862px 0;*/
+    }
+    91.66%{
+        background: url("./img/start_11.png") no-repeat center center;
+        background-size: cover;
+        /*background-position: -4248px 0;*/
+    }
+    100% {
+        background: url("./img/start_12.png") no-repeat center center;
+        background-size: cover;
+        /*background: url("./img/start_0.png") no-repeat center center;*/
+        /*background-size: cover;*/
+        /*transform: translateY(0px);*/
+        /*background-position: -4632px 0;*/
+    }
+}
+@keyframes logoScale {
+    0%{
+        transform: scale(0.999);
+    }
+    12.5%{
+        transform: scale(1.001);
+    }
+    25%{
+        transform: scale(1.005);
+    }
+    37.5%{
+        transform: scale(1.010);
+    }
+    50%{
+        transform: scale(1.015);
+    }
+    62.5%{
+        transform: scale(1.010);
+    }
+    75%{
+        transform: scale(1.005);
+    }
+    87.5%{
+        transform: scale(1.0);
+    }
+    100%{
+        transform: scale(0.999);
+    }
+}
+@keyframes leaf1 {
+    0%{
+        background: url("./img/leaf1/leaf1_0.png") no-repeat center center;
+        background-size: cover;
+    }
+    4%{
+        background: url("./img/leaf1/leaf1_1.png") no-repeat center center;
+        background-size: cover
+    }
+    /*8%{*/
+    /*background: url("./img/leaf1/leaf1_2.png") no-repeat center center;*/
+    /*background-size: cover*/
+    /*}*/
+    12%{
+        background: url("./img/leaf1/leaf1_3.png") no-repeat center center;
+        background-size: cover
+    }
+    16%{
+        background: url("./img/leaf1/leaf1_4.png") no-repeat center center;
+        background-size: cover
+    }
+    /*20%{*/
+    /*background: url("./img/leaf1/leaf1_5.png") no-repeat center center;*/
+    /*background-size: cover*/
+    /*}*/
+    24%{
+        background: url("./img/leaf1/leaf1_6.png") no-repeat center center;
+        background-size: cover
+    }
+    28%{
+        background: url("./img/leaf1/leaf1_7.png") no-repeat center center;
+        background-size: cover
+    }
+    32%{
+        background: url("./img/leaf1/leaf1_8.png") no-repeat center center;
+        background-size: cover
+    }
+    /*36%{*/
+    /*background: url("./img/leaf1/leaf1_9.png") no-repeat center center;*/
+    /*background-size: cover*/
+    /*}*/
+    40%{
+        background: url("./img/leaf1/leaf1_10.png") no-repeat center center;
+        background-size: cover
+    }
+    /*44%{*/
+    /*background: url("./img/leaf1/leaf1_11.png") no-repeat center center;*/
+    /*background-size: cover*/
+    /*}*/
+    48%{
+        background: url("./img/leaf1/leaf1_12.png") no-repeat center center;
+        background-size: cover
+
+    }
+    52%{
+        background: url("./img/leaf1/leaf1_13.png") no-repeat center center;
+        background-size: cover
+    }
+    56%{
+        background: url("./img/leaf1/leaf1_14.png") no-repeat center center;
+        background-size: cover
+    }
+    /*60%{*/
+    /*background: url("./img/leaf1/leaf1_15.png") no-repeat center center;*/
+    /*background-size: cover*/
+    /*}*/
+    64%{
+        background: url("./img/leaf1/leaf1_16.png") no-repeat center center;
+        background-size: cover
+    }
+    68%{
+        background: url("./img/leaf1/leaf1_17.png") no-repeat center center;
+        background-size: cover
+    }
+    /*72% {*/
+    /*background: url("./img/leaf1/leaf1_18.png") no-repeat center center;*/
+    /*background-size: cover*/
+    /*}*/
+    76% {
+        background: url("./img/leaf1/leaf1_19.png") no-repeat center center;
+        background-size: cover
+    }
+    80%{
+        background: url("./img/leaf1/leaf1_20.png") no-repeat center center;
+        background-size: cover
+    }
+    /*84%{*/
+    /*background: url("./img/leaf1/leaf1_21.png") no-repeat center center;*/
+    /*background-size: cover*/
+    /*}*/
+    88%{
+        background: url("./img/leaf1/leaf1_22.png") no-repeat center center;
+        background-size: cover
+    }
+    92%{
+        background: url("./img/leaf1/leaf1_23.png") no-repeat center center;
+        background-size: cover
+    }
+    96%{
+        background: url("./img/leaf1/leaf1_24.png") no-repeat center center;
+        background-size: cover
+    }
+    100%{
+        background: url("./img/leaf1/leaf1_25.png") no-repeat center center;
+        background-size: cover
+    }
+
+}
+@keyframes leaf2 {
+    0%{
+        background: url("./img/leaf2/leaf2_0.png") no-repeat center center;
+        background-size: cover;
+    }
+    4%{
+        background: url("./img/leaf2/leaf2_1.png") no-repeat center center;
+        background-size: cover
+    }
+    /*8%{*/
+    /*background: url("./img/leaf2/leaf2_2.png") no-repeat center center;*/
+    /*background-size: cover*/
+    /*}*/
+    12%{
+        background: url("./img/leaf2/leaf2_3.png") no-repeat center center;
+        background-size: cover
+    }
+    16%{
+        background: url("./img/leaf2/leaf2_4.png") no-repeat center center;
+        background-size: cover
+    }
+    /*20%{*/
+    /*background: url("./img/leaf2/leaf2_5.png") no-repeat center center;*/
+    /*background-size: cover*/
+    /*}*/
+    24%{
+        background: url("./img/leaf2/leaf2_6.png") no-repeat center center;
+        background-size: cover
+    }
+    28%{
+        background: url("./img/leaf2/leaf2_7.png") no-repeat center center;
+        background-size: cover
+    }
+    32%{
+        background: url("./img/leaf2/leaf2_8.png") no-repeat center center;
+        background-size: cover
+    }
+    /*36%{*/
+    /*background: url("./img/leaf2/leaf2_9.png") no-repeat center center;*/
+    /*background-size: cover*/
+    /*}*/
+    40%{
+        background: url("./img/leaf2/leaf2_10.png") no-repeat center center;
+        background-size: cover
+    }
+    /*44%{*/
+    /*background: url("./img/leaf2/leaf2_11.png") no-repeat center center;*/
+    /*background-size: cover*/
+    /*}*/
+    48%{
+        background: url("./img/leaf2/leaf2_12.png") no-repeat center center;
+        background-size: cover
+
+    }
+    52%{
+        background: url("./img/leaf2/leaf2_13.png") no-repeat center center;
+        background-size: cover
+    }
+    /*56%{*/
+    /*background: url("./img/leaf2/leaf2_14.png") no-repeat center center;*/
+    /*background-size: cover*/
+    /*}*/
+    60%{
+        background: url("./img/leaf2/leaf2_15.png") no-repeat center center;
+        background-size: cover
+    }
+    64%{
+        background: url("./img/leaf2/leaf2_16.png") no-repeat center center;
+        background-size: cover
+    }
+    68%{
+        background: url("./img/leaf2/leaf2_17.png") no-repeat center center;
+        background-size: cover
+    }
+    /*72% {*/
+    /*background: url("./img/leaf2/leaf2_18.png") no-repeat center center;*/
+    /*background-size: cover*/
+    /*}*/
+    76% {
+        background: url("./img/leaf2/leaf2_19.png") no-repeat center center;
+        background-size: cover
+    }
+    80%{
+        background: url("./img/leaf2/leaf2_20.png") no-repeat center center;
+        background-size: cover
+    }
+    /*84%{*/
+    /*background: url("./img/leaf2/leaf2_21.png") no-repeat center center;*/
+    /*background-size: cover*/
+    /*}*/
+    88%{
+        background: url("./img/leaf2/leaf2_22.png") no-repeat center center;
+        background-size: cover
+    }
+    92%{
+        background: url("./img/leaf2/leaf2_23.png") no-repeat center center;
+        background-size: cover
+    }
+    96%{
+        background: url("./img/leaf2/leaf2_24.png") no-repeat center center;
+        background-size: cover
+    }
+    100%{
+        background: url("./img/leaf2/leaf2_25.png") no-repeat center center;
+        background-size: cover
+    }
+
+}
+@keyframes cage {
+    0%{
+        transform:rotate(0deg);
+    }
+    10%{
+        transform:rotate(-0.5deg);
+    }
+    20%{
+        transform:rotate(-1deg);
+    }
+    30%{
+        transform:rotate(-1.5deg);
+    }
+    40%{
+        transform:rotate(-1deg);
+    }
+    50%{
+        transform:rotate(-0.5deg);
+    }
+    60.5%{
+        transform:rotate(0deg);
+    }
+    70%{
+        transform:rotate(0.5deg);
+    }
+    80%{
+        transform:rotate(1deg);
+    }
+    90%{
+        transform:rotate(1.5deg);
+    }
+    100%{
+        transform:rotate(1.5deg);
+    }
+}
+
+@media (max-width:621px) {
+
+    .logo {
+        width: 4.8rem;
+        padding-top: 0.8rem;
+    }
+
+    .main {
+        background: url("./img/mainBgS.png") no-repeat center center;
+        background-size: cover;
+    }
+
+}
